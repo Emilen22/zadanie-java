@@ -22,9 +22,7 @@ class SumNumbers {
                 var writer = new BufferedWriter(fileWriter);
                 writer.write("list.add(num)");
                 writer.newLine();
-                writer.write("Lolek");
-                writer.newLine();
-                writer.write("Karolek");
+                
             } catch (IOException e) {
                 System.out.println("Nie udało się utworzyć pliku");
             }
